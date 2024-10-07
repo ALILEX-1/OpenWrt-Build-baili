@@ -85,7 +85,7 @@ jobs:
         # git clone $REPO_URL -b $REPO_BRANCH openwrt
         wget $REPO_URL$REPO_BRANCH
         tar -xvf $REPO_BRANCH
-        mv immortalwrt-$REPO_BRANCH openwrt
+        mv immortalwrt-23.05.4 openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
     - name: Load custom feeds
