@@ -11,7 +11,7 @@
 #
 
 # 设置默认IP为 192.168.2.1
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # 修改内核为5.15.127-1-f12cad7e28a8d370c8c790636360fd31
 # sed -i 's/LINUX_VERSION-5.15 = .127/LINUX_VERSION-5.15 = .127-1/g' include/kernel-5.15
